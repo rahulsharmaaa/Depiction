@@ -1,0 +1,14 @@
+* {
+    font-family: Lato, 'Courier New', Courier, monospace
+}
+
+#brandHeading{
+    font-weight: 900;
+}
+
+#background1 {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
