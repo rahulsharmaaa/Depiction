@@ -6,9 +6,118 @@
     font-weight: 900;
 }
 
-#background1 {
-    width: 100%;
-    background-position: center;
+#home {    
+    height: 650px;
+    background-image: url('img/bg.jpg');
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#home .navbar {
+    opacity: 0.7;
+}
+
+.homeContent {
+    margin-top: 20%;
+    text-align: center;
+    background-color:rgba(255,255,255,0.5);
+    padding: 40px;
+}
+
+.homeContent ::placeholder {
+    color: black;     
+}
+
+.homeContent .btn-outline-dark:hover, .btn-outline-dark:focus, .btn-outline-dark:active, .btn-outline-dark.active, .open>.dropdown-toggle.btn-outline-dark {
+    background: rgba(114, 114, 111, 0.2);    
+}
+
+#myNav {
+    font-weight: 700;    
+}
+
+#ourWork {
+    height: 650px; 
+    background-image: url('img/main.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.d-flex {
+    margin: 12%;
+    padding: 1% 2% 1% 2%;
+    background-color:rgba(43, 37, 37, 0.5);
+    color: wheat;
+    border-radius: 5px;
+}
+
+#contributors {
+    height: 650px; 
+    background-image: url('img/contributors.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#video {
+    margin: 10%;
+    padding: 40px 0px 40px 0px;
+    background-color:rgba(70, 70, 75, 0.5);
+    color: wheat;
+    border-radius: 5px;              
+}
+
+@media screen and (max-width: 992px) {
+    #ourWork .col-2 {
+      display: none;
+    }
+    .d-flex {
+        margin: 12% 4% 0% 4%;
+        padding: 4% 0% 1% 15%;
+        display: inline;
+    }
+  }
+
+#aboutUs {
     
+    background-image: url('img/aboutus.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.aboutUsCaption {
+    border-radius: 5px;
+    background-color:rgba(224, 204, 174, 0.7);    
+    margin-bottom: 350px;
+}
+
+#contact {
+    height: 650px; 
+    background-image: url('img/visit_Us.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.contactContent {
+    margin-top: 150px;
+    background-color:rgba(71, 65, 63, 0.7);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.contactContent .p1 .h6, .p2 .h6, .p3 .h6 {
+    color: rgb(201, 202, 191)
+}
+
+.contactContent .p1, .p2, {
+    margin-bottom: 40px;
 }
